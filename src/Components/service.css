@@ -1,7 +1,18 @@
 .service {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.5fr 2fr;
+    font-size: 0.9em;
 }
 .service-icon {
-    grid-column: 1 / -1;
+    grid-row: span 2;
+}
+
+.service-title {
+    font-family: 'Poppins', sans-serif;
+}
+
+.service-body {
+    font-family: 'Roboto', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
 }

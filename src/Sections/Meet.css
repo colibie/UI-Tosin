@@ -1,9 +1,35 @@
 .meet {
     text-align: center;
+    padding: 9%;
 }
 
 .team-list {
     display: grid;
     grid-template-columns: repeat(3, minmax(150px, 1fr));
     grid-gap: 20px;
+    padding-bottom: 60px;
+}
+
+.meet-header {
+    font-family: Graphie;
+    letter-spacing: -0.6px;
+    color: #BEBEBE9C;
+    line-height: 25px;
+    font-size: 1.2em;
+}
+
+.meet-tag{
+    font-family: Graphie;
+    font-size: 3em;
+    letter-spacing: -0.87px;
+    color: #502EFF;
+    opacity: 1;
+    width: 60%;
+    margin: auto;
+    line-height: 45px;
+    padding-bottom: 1.7em;
+}
+
+.meet-button {
+    font-size: 1.2em;
 }

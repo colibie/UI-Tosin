@@ -1,0 +1,15 @@
+.team-name {
+    font-family: Graphie;
+    letter-spacing: -0.5px;
+    color: #502EFF;
+    font-size: 1.2em;
+    line-height: 25px;
+}
+
+.team-title {
+    font-family: Graphie;
+    letter-spacing: -0.6px;
+    color: #BEBEBE9C;
+    line-height: 25px;
+    font-size: 1.2em;
+}

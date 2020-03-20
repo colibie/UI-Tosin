@@ -2,19 +2,23 @@ import React from 'react';
 import './Meet.css';
 import Team from '../Components/Team';
 import Button from "../Components/Button";
+import personA from '../assets/pexels-photo-846741-removebg-preview.png';
+import personB from '../assets/pexels-photo-1036623-removebg-preview.png';
+import personC from '../assets/pexels-photo-1036627-removebg-preview.png';
+
 
 const team = [
-    { id: 1, img:'some src', name:'jam potrick', 
+    { id: 1, img:personA, name:'jam potrick', 
         title:'Standard screen generation',
         facebook:'some fb', dribble:'some dribble',
         twitter:'some twitter', linkedin:'some linkedin'
     },
-    { id: 2, img:'some src', name:'ema jonas', 
+    { id: 2, img:personB, name:'ema jonas', 
         title:'Standard screen generator',
         facebook:'some fb', dribble:'some dribble',
         twitter:'some twitter', linkedin:'some linkedin'
     },
-    { id: 3, img:'some src', name:'mike pens', 
+    { id: 3, img:personC, name:'mike pens', 
         title:'Standard screen generation',
         facebook:'some fb', dribble:'some dribble',
         twitter:'some twitter', linkedin:'some linkedin'

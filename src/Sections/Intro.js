@@ -1,6 +1,7 @@
 import React from 'react';
 import './Intro.css';
-import Button from '../Components/Button'
+import Button from '../Components/Button';
+// import Man from '../assets/Image 1.png';
 
 function Intro() {
   return (
@@ -16,8 +17,8 @@ function Intro() {
           
         </div>
 
-        <div>
-          <img className='intro-img' src="..\assets\Image 1.png" alt='man'/>
+        <div className='intro-col-2'>
+          {/* <img className='intro-img' src={Man} alt='man'/> */}
           <nav>
             <ul>
               <li>Home</li>

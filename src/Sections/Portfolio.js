@@ -3,22 +3,22 @@ import './Portfolio.css';
 import Service from '../Components/Service'
 
 const services = [
-  { id: 1, icon:'some src', title:'Web design', 
+  { id: 1, icon:'img', title:'Web design', 
     body:'modern web design services with new trends and direction.',
   },
-  { id: 2, icon:'some src', title:'Branding', 
+  { id: 2, icon:'img', title:'Branding', 
     body:'highly professional branding and logo design work.',
   },
-  { id: 3, icon:'some src', title:'Motion graphics', 
+  { id: 3, icon:'img', title:'Motion graphics', 
     body:'modern motion graphics and animation for businesses. ',
   },
-  { id: 4, icon:'some src', title:'ui/ux design', 
+  { id: 4, icon:'img', title:'ui/ux design', 
     body:'Standard screen generation and design for all devices.',
   },
-  { id: 5, icon:'some src', title:'Web development', 
+  { id: 5, icon:'img', title:'Web development', 
     body:'website development is something we are best in. ',
   },
-  { id: 6, icon:'some src', title:'App testing', 
+  { id: 6, icon:'img', title:'App testing', 
     body:'we test app for better user experience and results.',
   },
 ]
@@ -26,8 +26,8 @@ const services = [
 function Portfolio() {
   return (
     <section className="portfolio">
-        <h2>Services 
-        <br /> & Portfolio </h2>
+        <p>services</p>
+        <p>& portfolio </p>
         <div className="service-list">
         {
             services.map(service => (

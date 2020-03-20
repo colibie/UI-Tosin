@@ -1,14 +1,37 @@
 .contact {
     text-align: center;
+    padding-bottom: 9%;
+}
+
+
+.contact-header {
+    font-family: Graphie;
+    letter-spacing: -0.6px;
+    color: #CBD5F9;
+    line-height: 25px;
+    font-size: 1.2em;
+}
+
+.contact-tag{
+    font-family: Graphie;
+    font-size: 2.5rem;
+    letter-spacing: -0.87px;
+    color: #502EFF;
+    opacity: 1;
+    width: 60%;
+    margin: auto;
+    line-height: 45px;
+    padding-bottom: 1.7em;
 }
 
 .form-input {
-    border: 3px solid #502EFF;
+    border: 2.7px solid #502EFF;
     border-radius: 20px;
-    width: 10rem;
-    padding: 10px;
+    width: 15em;
+    padding: 10px 20px;
     font-size: 16px;
     font-family: Roboto;
     color: var(--blue);
     font-weight: bold;
+    margin-right: 2%;
 }

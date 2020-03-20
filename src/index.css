@@ -8,6 +8,7 @@ html {
 
 body {
   margin: 0;
+  font-size: 16px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -22,4 +23,9 @@ code {
 
 .border {
   border: 2px solid red;
+}
+
+@font-face {
+  font-family: 'Graphie';
+  src: local('Graphie'), url(./fonts/graphie/Graphie-Regular.otf) format('opentype');
 }

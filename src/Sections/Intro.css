@@ -60,3 +60,7 @@ nav > ul > li {
     z-index: -1;
 }
 
+.intro-col-2 {
+    background: transparent url('../assets/Image 1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}

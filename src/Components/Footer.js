@@ -3,9 +3,10 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <footer className="">
+      <section className="footer">
+    <footer>
         <div className="footer-div">
-            <p>agency<span>x</span></p>
+            <h3><span className='logo'>agency</span><span className='x'>x</span></h3>
             <p> A design agency shaping ideas
                 into products.
                 We help startups and
@@ -41,9 +42,10 @@ function Footer() {
                 <li><icon>linkedin</icon></li>
             </ul>
         </div>
-
-        <p className="footer-copy"> &copy frontendtest|All rights reserved 2020 </p>
-    </footer>
+        </footer>
+        <p className="footer-copy"> &copy; frontendtest | All rights reserved 2020 </p>
+    
+    </section>
   );
 }
 
