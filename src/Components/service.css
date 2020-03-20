@@ -1,0 +1,7 @@
+.service {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.service-icon {
+    grid-column: 1 / -1;
+}

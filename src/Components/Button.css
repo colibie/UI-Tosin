@@ -1,0 +1,13 @@
+.button {
+    background: #502EFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #00000029;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 20px;
+    text-align: left;
+    font: 14px "Work Sans";
+    color: #FFFFFF;
+    text-shadow: 0px 24px 26px #00000029;
+    text-transform: uppercase;
+    opacity: 1;
+}

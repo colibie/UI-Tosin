@@ -1,0 +1,14 @@
+.contact {
+    text-align: center;
+}
+
+.form-input {
+    border: 3px solid #502EFF;
+    border-radius: 20px;
+    width: 10rem;
+    padding: 10px;
+    font-size: 16px;
+    font-family: Roboto;
+    color: var(--blue);
+    font-weight: bold;
+}
