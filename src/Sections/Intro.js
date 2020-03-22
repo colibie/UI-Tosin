@@ -1,24 +1,26 @@
 import React from 'react';
 import './Intro.css';
 import Button from '../Components/Button';
-// import Man from '../assets/Image 1.png';
+import Man from '../assets/Image 1.png';
 
 function Intro() {
   return (
     <section className="intro">
         <div className="intro-col-1">
           <p className='creative'>creative</p>
-          <p><span className='logo'>agency</span><span className='x'>x</span></p>
+          <p className="logo-group"><span className='logo'>agency</span><span className='x'>x</span></p>
           
           <div className="intro-text">
-            <h1 className="c-agency">Creative Agency</h1>
-            <p>play button watch a video intro</p>
+            <h1 className="c-agency">creative agency</h1>
+            <p className="intro-text-play">OOOO &nbsp; watch a video intro</p>
           </div>
+
+          <div className="spacer"></div>
           
         </div>
 
         <div className='intro-col-2'>
-          {/* <img className='intro-img' src={Man} alt='man'/> */}
+          <img className='intro-img' src={Man} alt='man' width="700px" height="911px"/>
           <nav>
             <ul>
               <li>Home</li>

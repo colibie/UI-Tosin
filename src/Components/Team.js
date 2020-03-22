@@ -5,7 +5,7 @@ import './team.css';
 function Team(props) {
   return (
     <section className="team">
-        <img src={props.img} alt={props.name} height="350" width="250" />
+        <img className="team-img" src={props.img} alt={props.name} height="350" width="250" />
         <p className="team-name">{props.name}</p>
         <p className="team-title">{props.title}</p>
         <ul>

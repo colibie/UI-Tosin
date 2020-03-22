@@ -1,13 +1,13 @@
 .portfolio {
     background-color: var(--blue);
-    padding: 10em 15em;
+    padding: 10em 17%;
     color: #FFFFFF;
 }
 
 .service-list {
     display: grid;
-    grid-template-columns: repeat(3, minmax(150px, 1fr));
-    grid-gap: 10%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 6%;
     margin-top: 50px;
 }
 
